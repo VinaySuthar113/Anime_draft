@@ -1,0 +1,14 @@
+[
+  {"name":"Aren Vox","base_power":80,"role_bonus":{"captain":15}},
+  {"name":"Kael Shin","base_power":75,"role_bonus":{"tank":15}},
+  {"name":"Zyra Noct","base_power":70,"role_bonus":{"healer":15}},
+  {"name":"Riven Ash","base_power":78,"role_bonus":{"vice_captain":12}},
+  {"name":"Miko Vale","base_power":68,"role_bonus":{"support":10}},
+  {"name":"Kuro Ren","base_power":72,"role_bonus":{"support":8}},
+  {"name":"Nova Rex","base_power":85,"role_bonus":{"captain":10}},
+  {"name":"Iris Flame","base_power":66,"role_bonus":{"healer":12}},
+  {"name":"Void Kane","base_power":88,"role_bonus":{"tank":10}},
+  {"name":"Echo Blaze","base_power":74,"role_bonus":{"support":9}},
+  {"name":"Silas Rift","base_power":77,"role_bonus":{"vice_captain":10}},
+  {"name":"Luna Pyre","base_power":69,"role_bonus":{"support":11}}
+]

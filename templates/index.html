@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anime Draft Arena</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Anime Draft Arena</h1>
+
+<input id="roomInput" placeholder="Room ID">
+<button onclick="createRoom()">Create</button>
+<button onclick="joinRoom()">Join</button>
+
+<p id="joinStatus"></p>
+<p id="turnStatus"></p>
+
+<button id="drawBtn" onclick="draw()">Draw</button>
+<button id="skipBtn" onclick="skip()">Skip</button>
+
+<div id="currentCard"></div>
+
+<h2>Your Team</h2>
+<div id="slots"></div>
+
+<script src="/static/script.js"></script>
+
+<div id="swapPopup" class="popup hidden">
+  <h2>Swap Phase</h2>
+  <p>Select TWO roles to swap</p>
+  <div id="swapSlots"></div>
+  <button onclick="confirmSwap()">Confirm Swap</button>
+</div>
+
+<div id="resultPopup" class="popup hidden">
+  <h2>Final Result</h2>
+  <div id="resultContent"></div>
+  <button onclick="closeResult()">Close</button>
+</div>
+
+</body>
+</html>

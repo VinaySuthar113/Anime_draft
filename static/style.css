@@ -1,0 +1,41 @@
+body{
+  background:#0f172a;
+  color:white;
+  font-family:sans-serif;
+  text-align:center;
+}
+button{margin:5px;padding:6px 12px}
+#slots div{
+  border:1px solid #334155;
+  margin:5px;
+  padding:8px;
+  cursor:pointer;
+}
+#currentCard{
+  font-size:20px;
+  margin:10px;
+}
+
+.popup{
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#020617;
+  border:2px solid #38bdf8;
+  padding:20px;
+  z-index:100;
+}
+.hidden{display:none}
+
+.swap-slot {
+  border: 1px solid #38bdf8;
+  padding: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.swap-slot.selected {
+  background: #38bdf8;
+  color: black;
+}
